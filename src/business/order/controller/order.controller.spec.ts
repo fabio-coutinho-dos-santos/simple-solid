@@ -2,7 +2,7 @@ import { Test, TestingModule } from "@nestjs/testing";
 import { OrdersController } from "./order.controller"
 import OrdersService from "../service/order.service";
 import OrderDto from "../dto/order.dto";
-import OrderRepository from "../../../infrastructure/database/repository/order.repository";
+import OrderRepository from "../../../frameworks/database/repository/order.repository";
 import Order from "../entity/order.entity";
 import { TypeOrmModule } from "@nestjs/typeorm";
 

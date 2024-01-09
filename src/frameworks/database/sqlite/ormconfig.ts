@@ -1,4 +1,4 @@
-import Order from "../../../domain/order/entity/order.entity";
+import Order from "../../../business/order/entity/order.entity";
 
 export function ormconfig(): any {
   return {

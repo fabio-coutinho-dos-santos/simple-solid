@@ -1,6 +1,6 @@
 import { InjectRepository } from "@nestjs/typeorm";
-import Order from "../../../domain/order/entity/order.entity";
-import { OrderRepositoryInterface } from "../../../domain/order/repository/order.repository.interface";
+import Order from "../../../business/order/entity/order.entity";
+import { OrderRepositoryInterface } from "../../../business/order/repository/order.repository.interface";
 import { Repository } from "typeorm";
 
 export default class OrderRepository implements OrderRepositoryInterface {
